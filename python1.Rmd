@@ -1,0 +1,23 @@
+---
+title: "python-intro-1"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+```{r}
+knitr::knit_engines$set(python = reticulate::eng_python)
+```
+
+
+```{python}
+library(reticulate)
+x = 10
+```
+
+```{r}
+sessionInfo()
+```
+
