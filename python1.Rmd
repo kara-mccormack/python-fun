@@ -57,6 +57,11 @@ print('weight in pounds:', 2.2 * weight_kg)
 ```
 
 ```{python}
+weight_kg = 65.0
+print('weight in kilograms is now:', weight_kg)
+```
+
+```{python}
 
 ```
 
@@ -81,19 +86,4 @@ print('weight in pounds:', 2.2 * weight_kg)
 
 ```
 
-```{python}
-library(reticulate)
-x = 10
-y = range(10)
-```
-
-```{python}
-import pandas
-flights = pandas.read_csv("flights.csv")
-
-```
-
-```{r}
-sessionInfo()
-```
 
