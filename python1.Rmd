@@ -11,10 +11,22 @@ knitr::opts_chunk$set(echo = TRUE)
 knitr::knit_engines$set(python = reticulate::eng_python)
 ```
 
+```{python}
+# python as a calculator
+3 + 5 * 4
+```
+
 
 ```{python}
 library(reticulate)
 x = 10
+y = range(10)
+```
+
+```{python}
+import pandas
+flights = pandas.read_csv("flights.csv")
+
 ```
 
 ```{r}
