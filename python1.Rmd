@@ -16,6 +16,70 @@ knitr::knit_engines$set(python = reticulate::eng_python)
 3 + 5 * 4
 ```
 
+```{python}
+# assign a value to a variable
+weight_kg = 60
+```
+
+Variable names:
+- can include letters, digits, and underscores
+- cannot start with a digit
+- are case sensitive
+
+## Types of Data
+Common types:
+- integer numbers
+- floating point numbers
+- strings
+
+```{python}
+# variable with a floating point value
+weight_kg = 60.0
+```
+
+```{python}
+weight_kg_text = 'weight in kilograms:'
+```
+
+```{python}
+print(weight_kg)
+```
+
+```{python}
+# display multiple things at once
+print(weight_kg_text, weight_kg)
+```
+
+```{python}
+# do arithmetic with variables right inside the print function
+print('weight in pounds:', 2.2 * weight_kg)
+# did not change the value of weight_kg
+```
+
+```{python}
+
+```
+
+
+```{python}
+
+```
+
+```{python}
+
+```
+
+```{python}
+
+```
+
+```{python}
+
+```
+
+```{python}
+
+```
 
 ```{python}
 library(reticulate)
