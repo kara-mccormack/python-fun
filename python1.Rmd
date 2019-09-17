@@ -62,16 +62,30 @@ print('weight in kilograms is now:', weight_kg)
 ```
 
 ```{python}
+# there are 2.2 pounds per kg
+weight_lb = 2.2 * weight_kg
+print(weight_kg_text, weight_kg, 'and in pounds:', weight_lb)
+```
 
+```{python}
+weight_kg = 100.0
+print('weight in kilograms is now:', weight_kg, 'and weight in pounds is still:', weight_lb)
+# weight_lb doesn't "remember" where it got its value from
+```
+
+## Loading data into Python
+
+```{python}
+import numpy 
+```
+
+```{bash}
+cd /home/guest/python-fun/swc-python/data
 ```
 
 
 ```{python}
-
-```
-
-```{python}
-
+numpy.loadtxt(fname='inflammation-01.csv', delimiter=',')
 ```
 
 ```{python}
