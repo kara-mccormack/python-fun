@@ -85,7 +85,8 @@ cd /home/guest/python-fun/swc-python/data
 
 
 ```{python}
-numpy.loadtxt(fname='inflammation-01.csv', delimiter=',')
+# library(reticulate)
+numpy.loadtxt(fname='/home/guest/python-fun/swc-python/data/inflammation-01.csv', delimiter=',')
 ```
 
 ```{python}
